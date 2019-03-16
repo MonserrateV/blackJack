@@ -6,13 +6,12 @@ header {
 .container,
 #text-area {
     margin-left: 40%;
-    width: 100%;
+    width: 50%;
+    border: 3px solid #1AD3D3;
+    border-shadow: 2px 2px 6px #DD00BA;
+    border-radius: 20%;
 }
 
-div,
-#text-area {
-    display: inline;
-}
 
 button {
     margin: auto;
