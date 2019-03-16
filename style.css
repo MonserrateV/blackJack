@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    font-family: 'Black And White Picture', sans-serif;
+}
+
+.container,
+#text-area {
+    margin-left: 40%;
+    width: 100%;
+}
+
+div,
+#text-area {
+    display: inline;
+}
+
+button {
+    margin: auto;
+    font-family: 'Aclonica', sans-serif;
+}
