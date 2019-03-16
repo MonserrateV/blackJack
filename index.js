@@ -21,7 +21,7 @@ hitButton.style.display = 'none';
 stayButton.style.display = 'none';
 showStatus();
 
-newGame.addEventListener('click', function() {
+newGame.addEventListener('click', function () {
     gameStarted = true;
     gameOver = false;
     playerWon = false;
@@ -38,13 +38,13 @@ newGame.addEventListener('click', function() {
 });
 
 //config the HIT/STAY buttons
-hitButton.addEventListener('click', function() {
+hitButton.addEventListener('click', function () {
     playerCards.push(getNextCard());
     checkForEndOfGame();
     showStatus();
 });
 
-stayButton.addEventListener('click', function() {
+stayButton.addEventListener('click', function () {
     gameOver = true;
     checkForEndOfGame();
     showStatus();
@@ -161,6 +161,7 @@ function checkForEndOfGame() {
 function showStatus() {
     if (!gameStarted) {
         textArea.innerText = "Welcome to Mo's BlackJack Table";
+        textArea.classList.add('intro');
         return;
     }
 

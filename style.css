@@ -3,17 +3,21 @@ header {
     font-family: 'Black And White Picture', sans-serif;
 }
 
-.container,
-#text-area {
-    margin-left: 40%;
+/*#text-area {
+    margin-left: 30%;
+    height: 250px;
     width: 50%;
     border: 3px solid #1AD3D3;
-    border-shadow: 2px 2px 6px #DD00BA;
+    box-shadow: 2px 2px 6px #DD00BA;
     border-radius: 20%;
+}*/
+
+.intro{
+    font-size: 24pt;
+    color: black;
+    text-shadow: 1px 1px 2px #DD00BA;
 }
-
-
 button {
-    margin: auto;
+    margin-left: 30%;
     font-family: 'Aclonica', sans-serif;
 }
