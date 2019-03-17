@@ -11,20 +11,20 @@ header {
 }*/
 
 .intro{
-    margin-left: 30%;
+    margin: 5% 25%;
     height: 250px;
     width: 50%;
-    font-size: 34pt;
+    font-size: 54pt;
     color: black;
     text-shadow: 1px 1px 2px #DD00BA;
 }
 button {
-    margin-left: 40%;
+    align-items: center;
     height: 125px;
-    width: 8%;
+    width: 75%;
     border-radius: 50%;
     background-color: #1AD3D3;
-    box-shadow: 2px 2px 4px #110999;
+    box-shadow: 2px 2px 8px #110999;
     font-family: 'Aclonica', sans-serif;
     font-size: 24pt;
 }
