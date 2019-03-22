@@ -176,20 +176,20 @@ function showStatus() {
         playerCardString += getCardString(playerCards[i]) + '\n';
     }
     updateScore();
-    textArea.innerText =
+    textAreaDealer.innerText =
         'Dealer has: \n' +
         dealerCardString +
-        '(score: ' + dealerScore + ')\n\n' +
-
+        '(score: ' + dealerScore + ')\n\n';
+    textAreaPlayer.innerText =
         'player has:\n' +
         playerCardString +
         '(score: ' + playerScore + ')\n\n';
 
     if (gameOver) {
         if (playerWon) {
-            textArea.innerText += "You have WON!";
+            textAreaPlayer.innerText += "You have WON!";
         } else {
-            textArea.innerText += "Sorry Dealer WINS!";
+            textAreaDealer.innerText += "Sorry Dealer WINS!";
         }
         newGame.style.display = 'inline';
         hitButton.style.display = 'none';
