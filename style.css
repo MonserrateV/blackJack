@@ -21,10 +21,20 @@ header {
 button {
     align-items: center;
     height: 125px;
-    width: 75%;
+    width: auto;
     border-radius: 50%;
     background-color: #1AD3D3;
     box-shadow: 2px 2px 8px #110999;
     font-family: 'Aclonica', sans-serif;
     font-size: 24pt;
+}
+textNode{
+    display: inline;
+    color: #dd00ba;
+    text-shadow: #000;
+}
+.player{
+    display: inline;
+    color: #1ad3d3;
+    text-shadow: #000;
 }

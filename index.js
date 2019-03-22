@@ -1,5 +1,7 @@
 //Dom Variables
 let textArea = document.getElementById('text-area');
+textAreaDealer = document.getElementById('text-area2');
+textAreaPlayer = document.getElementById('text-area3');
 newGame = document.getElementById('new-game');
 hitButton = document.getElementById('hit-button');
 stayButton = document.getElementById('stay-button');
@@ -174,7 +176,6 @@ function showStatus() {
         playerCardString += getCardString(playerCards[i]) + '\n';
     }
     updateScore();
-
     textArea.innerText =
         'Dealer has: \n' +
         dealerCardString +
@@ -194,4 +195,5 @@ function showStatus() {
         hitButton.style.display = 'none';
         stayButton.style.display = 'none';
     }
+
 }
